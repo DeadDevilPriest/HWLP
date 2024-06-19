@@ -1,0 +1,65 @@
+
+/*General Settings*/
+body {
+    background-color: rgb(195, 195, 195);
+    font-size: large;
+
+    /*Fine Tuning*/
+    .housestorage {
+        color: black;
+        content: none;
+    }
+
+    .mapandtask {
+        content: none;
+
+    }
+
+    .mapandtask > .map{
+        content: url('map.PNG');
+    }
+
+    .webtitle {
+        background-color: rgb(127, 127, 127);
+        min-width: 100%;
+    }
+
+    .menu{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1px;
+        padding: 25px, 0px, 25px, 0px;
+    }
+
+    .button#housestorage {
+        transform-origin: center;
+        position: absolute;
+        top: 0%;
+        left: 33.3%;
+        transform: translate(-66.7%, 0%);
+        height: 50px;
+        width: fit-content;
+        padding: 1%;
+        border-color: black;
+        border-radius: 4px;
+    }
+
+    .button#mapandtask {
+        transform-origin: center;
+        position: absolute;
+        top: 0%;
+        left: 66.7%;
+        transform: translate(-33.3%, 0%);
+        height: 50px;
+        width: fit-content;
+        padding: 1%;
+        border-color: black;
+        border-radius: 4px;
+    }
+
+    h1 {
+        color: white;
+    }
+
+}
+
