@@ -1,5 +1,14 @@
+/* Variablen */
+:root
+[data-bs-theme=light]{
+    --bbw-bc: black;
+}
+[data-bs-theme=dark]{
+    --bbw-bc: black;
+}
 
-/*General Settings*/
+
+/* General Settings */
 body {
     background-color: rgb(195, 195, 195);
     font-size: large;
